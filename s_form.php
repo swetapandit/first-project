@@ -79,6 +79,11 @@ if(!$conn)
 			<textarea class="form-control" rows="4"></textarea>
 		</div>
 	</div>
+	<div class="form-group row">
+		<div class="col-sm-6">
+			<button type="button" class="btn btn-success">Submit</button>
+		</div>
+	</div>
 
 </div>
 </body>
