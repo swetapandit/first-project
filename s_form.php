@@ -69,7 +69,7 @@ if(!$conn)
 	</div>
 	<div class="form-group row">
 		<div class="col-sm-6">
-			<label>Aadhaar No.</label>
+			<label>Aadhaar No.<span class="text-danger">*</span></label>
 			<input type="text" name="" class="form-control">
 		</div>
 	</div>
