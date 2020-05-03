@@ -16,6 +16,16 @@ if(!$conn)
 	<title>Sweta Form</title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+	.colon {
+	    text-decoration: none;
+	    float: left;
+	    margin: 6px 0px 0px -10px;
+	}
+	.mt-5{
+		margin-top: 5px;
+	}
+</style>
 </head>
 <body>
 <form>
@@ -224,6 +234,13 @@ if(!$conn)
 	</div>
 	<div class="form-group row">
 		<button type="button" class="btn btn-success">Submit</button>
+	</div>
+	<div class="form-group row">
+		<label class="col-sm-6 mt-5 text-right">User Name</label>
+		<div class="col-sm-3">
+			<span class="colon">:</span>
+			<input type="text" name="" class="form-control" placeholder="User Name">
+		</div>
 	</div>
 </div>
 </form>
